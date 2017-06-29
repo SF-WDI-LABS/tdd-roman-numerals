@@ -1,6 +1,5 @@
 <!-- 
 authors: @nathanallen
-cohorts: 30
  -->
 
 # <img src="https://cloud.githubusercontent.com/assets/7833470/10423298/ea833a68-7079-11e5-84f8-0a925ab96893.png" width="60"> TDD Roman Numerals
@@ -44,16 +43,14 @@ Test Driven Development can be thought of as a 3 step processs described as "Red
 > When _pair programming_ one strategy is to play "ping pong". One person writes the test, the other person writes code to pass it. Then you switch roles.
 
 ## Setup
-Before you can start writing tests, you need to setup the RSpec test suite in your project. Please follow the official [setup instructions](https://relishapp.com/rspec/docs/gettingstarted).
+Before you can start writing tests, you need to setup the RSpec test suite in your project. Please follow the official [setup instructions](https://relishapp.com/rspec/docs/gettingstarted) to install and configure the `rspec` gem (that means you should have a `Gemfile`!), and setup your first test.
 
-At a minimum, you will need to install and configure the following gems: `rspec`, `rspec-core`, `rspec-expectations`. (That means you should have a `Gemfile`!).
-
-Your tests or "specs" will live in a `/specs` folder. Since we are testing our `Converter` class which lives in `converter.rb`, we will name our spec "/specs/converter_spec.rb".
+We recommend you save your tests or "specs" in a `/specs` folder. Since we are testing our `Converter` class which lives in `converter.rb`, we will name our spec file "/specs/converter_spec.rb" to match.
 
 > Make sure you are in the _root_ of your project when you run the `rspec` command!
 
 #### Writing Expectations
-You will need to familiarize yourself with the "built-in matchers" included in the `rspec-expectations` library:
+You will need to familiarize yourself with the "built-in matchers" included in the dependent `rspec-expectations` library:
 * http://www.rubydoc.info/gems/rspec-expectations/frames#Equivalence
 * http://www.rubydoc.info/gems/rspec-expectations/frames#Comparisons
 

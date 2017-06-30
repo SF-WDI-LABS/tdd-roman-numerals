@@ -45,7 +45,7 @@ Test Driven Development can be thought of as a 3 step processs described as "Red
 ## Setup
 Before you can start writing tests, you need to setup the RSpec test suite in your project. Please follow the official [setup instructions](https://relishapp.com/rspec/docs/gettingstarted) to install and configure the `rspec` gem (that means you should have a `Gemfile`!), and setup your first test.
 
-We recommend you save your tests or "specs" in a `/specs` folder. Since we are testing our `Converter` class which lives in `converter.rb`, we will name our spec file "/specs/converter_spec.rb" to match.
+We recommend you save your tests or "specs" in a `/spec` folder because this is the default location `rspec` uses. Since we are testing our `Converter` class which lives in `converter.rb`, we will name our spec file "/spec/converter_spec.rb" to match.
 
 > Make sure you are in the _root_ of your project when you run the `rspec` command!
 
